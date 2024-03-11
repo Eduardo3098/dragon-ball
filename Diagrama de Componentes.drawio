@@ -1,0 +1,136 @@
+<mxfile host="Electron" modified="2024-03-11T01:14:35.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="GzgOdH-873OwyYydCHPL" version="23.1.5" type="device">
+  <diagram name="Página-1" id="1CiGT8IbeeAmECMYHbe3">
+    <mxGraphModel dx="1475" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="KkprOB5_ZJtav0yn1h1J-2" target="KkprOB5_ZJtav0yn1h1J-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="250" />
+              <mxPoint x="260" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-2" value="Front End" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="200" height="400" as="geometry">
+            <mxRectangle x="40" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-6" value="spa-dragon-ball" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=comp;archiType=square;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-2" vertex="1">
+          <mxGeometry x="25" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-3" value="Back End" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="200" height="400" as="geometry">
+            <mxRectangle x="40" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-7" value="msa-user-management" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=comp;archiType=square;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-3" vertex="1">
+          <mxGeometry x="25" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-8" value="msa-characters-management" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=comp;archiType=square;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-3" vertex="1">
+          <mxGeometry x="25" y="180" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-9" value="msa-favotires-management" style="html=1;outlineConnect=0;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=comp;archiType=square;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-3" vertex="1">
+          <mxGeometry x="25" y="310" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KkprOB5_ZJtav0yn1h1J-3" target="KkprOB5_ZJtav0yn1h1J-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-65.00000000000006" y="180" as="sourcePoint" />
+            <mxPoint x="20" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-65" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-4" value="Base de Datos" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="40" width="200" height="400" as="geometry">
+            <mxRectangle x="40" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-10" value="BD:sqldb-dragon-ball&lt;br&gt;Table:users&lt;br&gt;&amp;lt;SQL Server&amp;gt;" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.application_store;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-4" vertex="1">
+          <mxGeometry x="90" y="60" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-13" value="BD:sqldb-dragon-ball&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Table:characters&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;SQL Server&amp;gt;" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.application_store;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-4" vertex="1">
+          <mxGeometry x="84" y="184" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-14" value="BD:sqldb-dragon-ball&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;SCHEMA:favorites&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;SQL Server&amp;gt;" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.application_store;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-4" vertex="1">
+          <mxGeometry x="84" y="310" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="KkprOB5_ZJtav0yn1h1J-6" target="KkprOB5_ZJtav0yn1h1J-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" target="KkprOB5_ZJtav0yn1h1J-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="KkprOB5_ZJtav0yn1h1J-7" target="KkprOB5_ZJtav0yn1h1J-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="130" />
+              <mxPoint x="570" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="KkprOB5_ZJtav0yn1h1J-9" target="KkprOB5_ZJtav0yn1h1J-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="380" />
+              <mxPoint x="570" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-22" value="Seguridad" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="40" width="200" height="400" as="geometry">
+            <mxRectangle x="40" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-30" value="Credenciales de usuario" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.credentials;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" parent="KkprOB5_ZJtav0yn1h1J-22" vertex="1">
+          <mxGeometry x="84" y="180" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="KkprOB5_ZJtav0yn1h1J-7" target="KkprOB5_ZJtav0yn1h1J-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="80" />
+              <mxPoint x="860" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkprOB5_ZJtav0yn1h1J-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="KkprOB5_ZJtav0yn1h1J-9" target="KkprOB5_ZJtav0yn1h1J-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="460" />
+              <mxPoint x="860" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O8Yq2XbUig1UF0EO7Zlf-4" value="Fuente de Datos Externos" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="200" height="400" as="geometry">
+            <mxRectangle x="40" y="40" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O8Yq2XbUig1UF0EO7Zlf-6" value="Drangon Ball Api" style="sketch=0;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.application_store;fontFamily=Consolas;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DConsolas;snapToPoint=0;" vertex="1" parent="O8Yq2XbUig1UF0EO7Zlf-4">
+          <mxGeometry x="84" y="184" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="O8Yq2XbUig1UF0EO7Zlf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="KkprOB5_ZJtav0yn1h1J-8" target="O8Yq2XbUig1UF0EO7Zlf-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="320" />
+              <mxPoint x="1100" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O8Yq2XbUig1UF0EO7Zlf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="KkprOB5_ZJtav0yn1h1J-7" target="KkprOB5_ZJtav0yn1h1J-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="190" />
+              <mxPoint x="620" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
