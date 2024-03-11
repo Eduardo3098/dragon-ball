@@ -4,7 +4,8 @@ Microservicios realizados en Java 17, para la administración de usuarios, perso
 
 # Base de Datos
 
-La conexión de los repositorios que necestian base de datos se la encuentra en los application.properties respestivamente, cambiar la url de conexión, usuario y clave. Posteriormente generar la base de datos **sqldb-dragon-ball**. El esquema de cada una de las tablas se encuentra configurado en cada repostirio por lo que no es neceario crearlas manualmente.
+La conexión de los repositorios que necestian base de datos se la encuentra en los application.properties respestivamente, cambiar la url de conexión, usuario y clave. 
+Posteriormente generar la base de datos **sqldb-dragon-ball** (`CREATE DATABASE database_name`) . El esquema de cada una de las tablas se encuentra configurado en cada repostirio por lo que no es neceario crearlas manualmente.
 
 # Ejecución de Proyectos
 
