@@ -73,13 +73,6 @@ public class FavoriteServiceImpl implements FavoriteService {
                 .map(charactersEntities -> {
                     List<FavoritesEntity> entities = new ArrayList<>(charactersEntities);
 
-//                    for(FavoritesEntity entity: entities) {
-//                        charactersRepository.findById(entity.getFavoritesId())
-//
-//                    }
-
-//                    charactersRepository.find
-
                     GetFavoritesResponse getFavoritesResponse = new GetFavoritesResponse();
                     getFavoritesResponse.setUserId(userId);
                     getFavoritesResponse.setCharacters(entities);
