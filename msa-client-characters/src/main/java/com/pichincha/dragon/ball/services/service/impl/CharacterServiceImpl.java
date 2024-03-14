@@ -3,7 +3,6 @@ package com.pichincha.dragon.ball.services.service.impl;
 import com.pichincha.dragon.ball.services.configuration.PropertiesConfiguration;
 import com.pichincha.dragon.ball.services.domain.models.CharacterByIdResponse;
 import com.pichincha.dragon.ball.services.domain.models.CharacterResponse;
-import com.pichincha.dragon.ball.services.mapper.CharacterMapper;
 import com.pichincha.dragon.ball.services.proxy.CharactersApiWebClient;
 import com.pichincha.dragon.ball.services.service.CharacterService;
 import lombok.RequiredArgsConstructor;
