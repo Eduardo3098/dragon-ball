@@ -17,6 +17,5 @@ public interface UserMapper {
 
 //    @Mapping(source = "userName", target = "userName")
 //    @Mapping(source = "userId", target = "userId")
-//    @Mapping(source = "email", target = "email")
     PostUserResponse toPostUserResponse(UsersEntity user);
 }
